@@ -197,7 +197,7 @@ If you find this repository useful, please cite:
 @inproceedings{tong2026proiqa,
   title={ProIQA: A Process-Based Framework for Fine-Grained Math Item Quality Assessment},
   author={Tong, Junkai and Li, Mingjia and Chen, Haoran and Jiang, Yaoyu and Ge, Hanjie and Wang, Yixuan and Qian, Hong},
-  booktitle={Proceedings of the 26th {IEEE} International Conference on Data Mining},
+  booktitle={Proceedings of the 26th {IEEE} International Conference on Data Mining, {ICDM}},
   year={2026},
   address={Shenyang, China}
 }
