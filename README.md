@@ -7,13 +7,14 @@ IEEE ICDM 2026
 </h3>
 
 <p align="center">
-<strong>Junkai Tong</strong> · <strong>Mingjia Li</strong> · <strong>Haoran Chen</strong> ·
-<strong>Yaoyu Jiang</strong> · <strong>Hanjie Ge</strong> · <strong>Yixuan Wang</strong> ·
-<strong>Hong Qian</strong><sup>†</sup>
+<strong>Junkai Tong</strong><sup>1</sup> · <strong>Mingjia Li</strong><sup>1</sup> · <strong>Haoran Chen</strong><sup>1</sup> ·
+<strong>Yaoyu Jiang</strong><sup>1</sup> · <strong>Hanjie Ge</strong><sup>1</sup> · <strong>Yixuan Wang</strong><sup>1</sup> ·
+<strong>Hong Qian</strong><sup>1,2,†</sup>
 </p>
 
 <p align="center">
-School of Computer Science and Technology, East China Normal University, Shanghai, China
+<sup>1</sup>East China Normal University, Shanghai, China<br>
+<sup>2</sup>Shanghai Chuangzhi Academy, Shanghai, China
 </p>
 
 <div align="center"> <sup>†</sup>Corresponding Author. </div>
@@ -92,6 +93,7 @@ ProIQA/
 |   |-- Algebra/   XES-1500/        # Difficulty assessment
 |   `-- TIMSS19/   TIMSS23/         # Competency assessment
 |-- prompts/                        # Solution/concept-extraction prompt templates
+|-- Paper/                          # Camera-ready paper (PDF)
 |-- PROMPTS.md                      # Reasoning-tree construction & verification prompts
 |-- requirements.txt
 |-- LICENSE
@@ -200,22 +202,3 @@ If you find this repository useful, please cite:
   address={Shenyang, China}
 }
 ```
-
-<hr>
-
-## ⚠️ Known Notes
-
-1. **Tree-construction code is not included** here: the repository provides
-   offline pre-built reasoning trees (`data/`) and the corresponding prompts
-   (`PROMPTS.md`). The tree-construction script lives in a separate private
-   environment.
-2. **T-IRT and R2DE baselines are not included**; their results are reported
-   in the paper (Table IV).
-3. **SFT baseline data** (`scripts/baseline/sft.py`) is not included; prepare
-   the raw training data before running it.
-4. **Default `--model_path` / `MODEL_PATH`** point to the original training
-   environment; specify your local model path.
-5. **IRT calibration code is not included**: `data/XES-1500/irt_parameters.json`
-   provides the pre-computed 2PL-IRT difficulty/discrimination parameters (see
-   Section V of the paper). The script that fits the 2PL-IRT model to student
-   response logs lives in a separate environment.
