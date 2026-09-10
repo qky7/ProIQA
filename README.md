@@ -14,7 +14,7 @@ IEEE ICDM 2026
 
 <p align="center">
 <sup>1</sup>East China Normal University, Shanghai, China<br>
-<sup>2</sup>Shanghai Chuangzhi Academy, Shanghai, China
+<sup>2</sup>Shanghai Innovation Institute, Shanghai, China
 </p>
 
 <div align="center"> <sup>†</sup>Corresponding Author. </div>
