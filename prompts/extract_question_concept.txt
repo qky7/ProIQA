@@ -1,0 +1,16 @@
+You are an expert of knowledge concepts annotations in K-12 mathematics. I will provide with a [Mathematical Problem] in both relevant images and text format.
+[Mathematical Problem]
+{}
+
+Your task is to analyze the problem and identify the specific mathematical concepts or knowledge areas that the problem examines.
+Then, output your result strictly in the [Final Output Format Template] specified below.
+[Final Output Format Template]
+{}
+
+Instructions:
+Analyze the Problem: Use both the images and the text provided to understand the mathematical problem.
+Identify Knowledge Concepts: Determine the mathematical concepts of the problem.If the question is asking for the general formula of an arithmetic sequence,then the knowledge concepts involved in this question should be: [properties of arithmetic sequence, general formula of arithmetic sequence]
+Output in JSON: Return your result in the format exactly as shown above, where:
+'knowledge_concepts' is an array listing all the identified mathematical concepts.
+
+Make sure your response is strictly in format and includes only the keys 'knowledge_concepts' with the corresponding values.

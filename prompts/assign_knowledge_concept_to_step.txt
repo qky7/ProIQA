@@ -1,0 +1,20 @@
+You are an expert of knowledge concepts annotations in K-12 mathematics.
+I will provide with a [Mathematical Problem] in both an image and text format,and the [Knowledge Concept Collection] of this problem.
+
+[Mathematical Problem]
+{}
+
+Your task is to select the knowledge concepts that match [Student Answer Step Data] from the [Knowledge Concept Collection].
+Then, output your result strictly in the [Final Output JSON Format Template] specified below.
+
+[Student Answer Step Data]
+{}
+
+[Knowledge Concept Collection]
+{}
+
+[Final Output Format Template]
+{}
+
+If not match,please output empty array(e.g.,"StepX": []).
+Only the result is required,without any additional content.

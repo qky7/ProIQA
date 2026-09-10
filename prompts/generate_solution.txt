@@ -1,0 +1,21 @@
+Now I will give you a [Mathematical Problem] in K-12 mathematics,including the text content and image of this problem.
+
+[Mathematical Problem]
+{}
+[Correct Answer]
+{}
+
+Your task is to solve the problem and output your solution in the following the [Final Output template]:
+
+[Final Output template]
+{}
+
+Instructions:
+The value of "answer" [Final Output template] in should be number or expression.
+If you can't finish this question,please fill "None" into it.
+
+You should solve problem Step-by-Step.It means break down the solution into a series of logical steps.
+For each step, provide a clear explanation (e.g., "Step1": "Extract the key variables from the problem", "Step2": "Apply the trigonometric identity...").
+If you can't finish this question,please fill at least one step(e.g.,"Step1": "I don't know how to answer this question").
+
+Only the result is required,without any additional content.

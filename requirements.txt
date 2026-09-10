@@ -1,0 +1,17 @@
+# ProIQA 核心依赖（基于原实验环境精简）
+# 注意：dgl 需匹配 CUDA 版本，此处按原环境 cu121 记录，请按实际环境调整。
+torch==2.4.0
+torchvision==0.19.0
+torchaudio==2.4.0
+transformers==4.51.0
+dgl==2.4.0+cu121
+flash-attn==2.8.3
+accelerate==1.11.0
+scikit-learn==1.7.2
+numpy==2.2.5
+pandas==2.3.3
+scipy==1.15.3
+tqdm==4.67.1
+openai==2.6.1          # 仅 zero-shot LLM baseline / 树构建使用
+safetensors==0.6.2
+huggingface_hub==0.34.4

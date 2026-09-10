@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Model checkpoints & artifacts
+save_model/
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Logs
+logs/
+*.log
+
+# Output directory (keep the folder, ignore its contents)
+output/*
+!output/.gitkeep
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db

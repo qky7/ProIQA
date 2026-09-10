@@ -1,0 +1,17 @@
+You are an expert of knowledge concepts annotations in K-12 mathematics.
+[Problem Concepts]
+{}
+[Full set of Concepts]
+{}
+
+Your task is to modify the every concept contained in the 'problem concepts' according to the current full set of concept.
+Main modifications: 1. The semantic of concept A contained in the problem is consistent with that of concept B in the full set of concept, please replace A with B. 2. If the semantic of concept A contained in the problem is inconsistent with any concept in the full set of concept, A is retained and added to the full set of concept.
+
+Then, output your result strictly in the specified below:
+[题目知识点]
+[知识点1，知识点2，...]
+
+[知识点全集]
+[知识点1，知识点2，...，知识点n]
+
+Make sure your response is strictly in format.
