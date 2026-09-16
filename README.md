@@ -20,8 +20,8 @@ IEEE ICDM 2026
 <div align="center"> <sup>†</sup>Corresponding Author. </div>
 
 <p align="center">
-    <a href="TODO-paper-link"><img src="https://img.shields.io/badge/Paper-ICDM2026-red"></a>
-    <a href="TODO-github-link"><img src="https://img.shields.io/badge/GitHub-Repo-blue"></a>
+    <a href="https://arxiv.org/abs/2609.15292"><img src="https://img.shields.io/badge/arXiv-2609.15292-b31b1b.svg"></a>
+    <a href="https://github.com/qky7/ProIQA"><img src="https://img.shields.io/badge/GitHub-Repo-blue"></a>
 </p>
 
 <hr>
@@ -29,6 +29,7 @@ IEEE ICDM 2026
 <h2 align="center">📰 [News]</h2>
 
 <h3 align="center">[2026.09] 🎉 Our paper has been accepted to <strong>IEEE ICDM 2026</strong>.</h3>
+<h3 align="center">[2026.09] 📄 We released the arXiv preprint of <em>ProIQA</em>.</h3>
 
 <hr>
 
